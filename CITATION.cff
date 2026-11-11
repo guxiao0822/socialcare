@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "socialcare: landmark-based risk prediction from social care records"
+repository-code: "https://github.com/guxiao0822/socialcare"
+license: MIT
+authors:
+  - family-names: Gu
+    given-names: Xiao
+preferred-citation:
+  type: article
+  title: "Anticipating health and care trajectories from routinely collected social care records"
+  journal: "npj Health Systems"
+  volume: 3
+  start: 78
+  year: 2026
+  doi: "10.1038/s44401-026-00139-3"
+  url: "https://doi.org/10.1038/s44401-026-00139-3"
+  authors:
+    - family-names: Gu
+      given-names: Xiao
+    - family-names: Nourse
+      given-names: Rebecca
+    - family-names: Lu
+      given-names: Lei
+    - family-names: Smout
+      given-names: Emily
+    - family-names: Fuller
+      given-names: Karen
+    - family-names: Havord
+      given-names: Fiona
+    - family-names: Baran
+      given-names: Victoria
+    - family-names: Briggs
+      given-names: Adam
+    - family-names: Clifton
+      given-names: Lei
+    - family-names: Farmer
+      given-names: Andrew
+    - family-names: Clifton
+      given-names: David A.

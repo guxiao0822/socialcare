@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "socialcare"
+version = "1.0.0"
+description = "Landmark-based risk prediction from routinely collected social care records"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scikit-learn>=1.6",
+    "xgboost>=2.1",
+    "openpyxl>=3.1",
+    "shap>=0.46",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+embeddings = ["torch", "transformers"]
+
+[tool.setuptools]
+packages = ["socialcare"]
